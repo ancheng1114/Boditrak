@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BF866E552592DDCB273B6A62CB17AB53A47C19F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BF866E552592DDCB273B6A62CB17AB53A47C19F2" : 9223372036854775807,
+    "555986CD9AE4942CE7EB410B47437D466EB70F51" : 9223372036854775807,
+    "7202510E9488F980DB7DA730932B15886EF7E8CD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "92132998-06D2-47F2-B536-BE9631CBB1E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BF866E552592DDCB273B6A62CB17AB53A47C19F2" : "BodiTrakDemo-Git\/",
+    "555986CD9AE4942CE7EB410B47437D466EB70F51" : "BodiTrak-Git\/",
+    "7202510E9488F980DB7DA730932B15886EF7E8CD" : "..\/GolfSwing\/SwingAnalysis-Git"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BodiTrak",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BodiTrak\/BodiTrak.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ancheng1114\/Mat-Test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "555986CD9AE4942CE7EB410B47437D466EB70F51"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WinningIdentity\/SwingAnalysis.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7202510E9488F980DB7DA730932B15886EF7E8CD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WinningIdentity\/BodiTrak-Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF866E552592DDCB273B6A62CB17AB53A47C19F2"
+    }
+  ]
+}

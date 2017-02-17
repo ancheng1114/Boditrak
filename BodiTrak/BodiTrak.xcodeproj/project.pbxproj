@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04022F941DB3F4540063D7A5 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 04022F931DB3F4540063D7A5 /* UIColor+HexString.m */; };
+		0443F2D81D9C936500B57128 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0443F2D71D9C936500B57128 /* QuartzCore.framework */; };
+		048637A41D95112400821DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048637A31D95112400821DFC /* main.m */; };
+		048637A71D95112400821DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048637A61D95112400821DFC /* AppDelegate.m */; };
+		048637AA1D95112400821DFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048637A91D95112400821DFC /* ViewController.m */; };
+		048637AD1D95112400821DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048637AB1D95112400821DFC /* Main.storyboard */; };
+		048637B01D95112400821DFC /* BodiTrak.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048637AE1D95112400821DFC /* BodiTrak.xcdatamodeld */; };
+		048637B21D95112400821DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048637B11D95112400821DFC /* Assets.xcassets */; };
+		048637B51D95112400821DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048637B31D95112400821DFC /* LaunchScreen.storyboard */; };
+		04AF1C321DC885B4006FBD7A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AF1C311DC885B4006FBD7A /* Photos.framework */; };
+		04CB85BD1D98972000868A08 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CB85BC1D98972000868A08 /* SystemConfiguration.framework */; };
+		04CB85C21D9897DA00868A08 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CB85C11D9897DA00868A08 /* ExternalAccessory.framework */; };
+		04CB85CC1D98B3E200868A08 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04CB85CB1D98B3E200868A08 /* Settings.bundle */; };
+		04CB85CF1D9982DE00868A08 /* Cop.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB85CE1D9982DE00868A08 /* Cop.m */; };
+		04CB85D21D998D6C00868A08 /* CopMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB85D11D998D6C00868A08 /* CopMapView.m */; };
+		04CB85D51D998D8300868A08 /* CopVelocityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB85D41D998D8300868A08 /* CopVelocityView.m */; };
+		04DAD9F71DB93CA6003917D2 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DAD9F61DB93CA6003917D2 /* ReplayKit.framework */; };
+		2FE46A5B4DBDC0B0D1741BCC /* Pods_BodiTrak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA44A3FF1D77FE88A49EBFB /* Pods_BodiTrak.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04022F921DB3F4540063D7A5 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		04022F931DB3F4540063D7A5 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		0443F2D31D9C92CF00B57128 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		0443F2D41D9C92CF00B57128 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0443F2D71D9C936500B57128 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0486379F1D95112400821DFC /* BodiTrak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodiTrak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048637A31D95112400821DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048637A51D95112400821DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048637A61D95112400821DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048637A81D95112400821DFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		048637A91D95112400821DFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		048637AC1D95112400821DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048637AF1D95112400821DFC /* BodiTrak.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BodiTrak.xcdatamodel; sourceTree = "<group>"; };
+		048637B11D95112400821DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048637B41D95112400821DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048637B61D95112400821DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AF1C311DC885B4006FBD7A /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		04CB85BB1D98959400868A08 /* BodiTrak.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BodiTrak.pch; sourceTree = "<group>"; };
+		04CB85BC1D98972000868A08 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04CB85C01D98977500868A08 /* BodiTrak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BodiTrak.entitlements; sourceTree = "<group>"; };
+		04CB85C11D9897DA00868A08 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		04CB85CB1D98B3E200868A08 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		04CB85CD1D9982DE00868A08 /* Cop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cop.h; sourceTree = "<group>"; };
+		04CB85CE1D9982DE00868A08 /* Cop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cop.m; sourceTree = "<group>"; };
+		04CB85D01D998D6C00868A08 /* CopMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopMapView.h; sourceTree = "<group>"; };
+		04CB85D11D998D6C00868A08 /* CopMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopMapView.m; sourceTree = "<group>"; };
+		04CB85D31D998D8300868A08 /* CopVelocityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopVelocityView.h; sourceTree = "<group>"; };
+		04CB85D41D998D8300868A08 /* CopVelocityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopVelocityView.m; sourceTree = "<group>"; };
+		04DAD9F61DB93CA6003917D2 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		91C21D2C4BFCF7EE0FF75041 /* Pods-BodiTrak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodiTrak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BodiTrak/Pods-BodiTrak.debug.xcconfig"; sourceTree = "<group>"; };
+		91C2B655F7D6A1EE13C080FC /* Pods-BodiTrak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodiTrak.release.xcconfig"; path = "Pods/Target Support Files/Pods-BodiTrak/Pods-BodiTrak.release.xcconfig"; sourceTree = "<group>"; };
+		AFA44A3FF1D77FE88A49EBFB /* Pods_BodiTrak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BodiTrak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0486379C1D95112400821DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF1C321DC885B4006FBD7A /* Photos.framework in Frameworks */,
+				04DAD9F71DB93CA6003917D2 /* ReplayKit.framework in Frameworks */,
+				0443F2D81D9C936500B57128 /* QuartzCore.framework in Frameworks */,
+				04CB85C21D9897DA00868A08 /* ExternalAccessory.framework in Frameworks */,
+				04CB85BD1D98972000868A08 /* SystemConfiguration.framework in Frameworks */,
+				2FE46A5B4DBDC0B0D1741BCC /* Pods_BodiTrak.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04022F911DB3F4540063D7A5 /* HexColor */ = {
+			isa = PBXGroup;
+			children = (
+				04022F921DB3F4540063D7A5 /* UIColor+HexString.h */,
+				04022F931DB3F4540063D7A5 /* UIColor+HexString.m */,
+			);
+			path = HexColor;
+			sourceTree = "<group>";
+		};
+		048637961D95112400821DFC = {
+			isa = PBXGroup;
+			children = (
+				048637A11D95112400821DFC /* BodiTrak */,
+				048637A01D95112400821DFC /* Products */,
+				E809BE36F515A8F618DA16D4 /* Pods */,
+				54495B2DF01C9A349541A961 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		048637A01D95112400821DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0486379F1D95112400821DFC /* BodiTrak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048637A11D95112400821DFC /* BodiTrak */ = {
+			isa = PBXGroup;
+			children = (
+				04022F911DB3F4540063D7A5 /* HexColor */,
+				04CB85C01D98977500868A08 /* BodiTrak.entitlements */,
+				048637A51D95112400821DFC /* AppDelegate.h */,
+				048637A61D95112400821DFC /* AppDelegate.m */,
+				048637A81D95112400821DFC /* ViewController.h */,
+				048637A91D95112400821DFC /* ViewController.m */,
+				048637AB1D95112400821DFC /* Main.storyboard */,
+				048637B11D95112400821DFC /* Assets.xcassets */,
+				048637B31D95112400821DFC /* LaunchScreen.storyboard */,
+				048637B61D95112400821DFC /* Info.plist */,
+				048637AE1D95112400821DFC /* BodiTrak.xcdatamodeld */,
+				048637A21D95112400821DFC /* Supporting Files */,
+				04CB85CD1D9982DE00868A08 /* Cop.h */,
+				04CB85CE1D9982DE00868A08 /* Cop.m */,
+				04CB85D01D998D6C00868A08 /* CopMapView.h */,
+				04CB85D11D998D6C00868A08 /* CopMapView.m */,
+				04CB85D31D998D8300868A08 /* CopVelocityView.h */,
+				04CB85D41D998D8300868A08 /* CopVelocityView.m */,
+			);
+			path = BodiTrak;
+			sourceTree = "<group>";
+		};
+		048637A21D95112400821DFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048637A31D95112400821DFC /* main.m */,
+				04CB85BB1D98959400868A08 /* BodiTrak.pch */,
+				04CB85CB1D98B3E200868A08 /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54495B2DF01C9A349541A961 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04AF1C311DC885B4006FBD7A /* Photos.framework */,
+				04DAD9F61DB93CA6003917D2 /* ReplayKit.framework */,
+				0443F2D71D9C936500B57128 /* QuartzCore.framework */,
+				0443F2D31D9C92CF00B57128 /* GLKit.framework */,
+				0443F2D41D9C92CF00B57128 /* OpenGLES.framework */,
+				04CB85C11D9897DA00868A08 /* ExternalAccessory.framework */,
+				04CB85BC1D98972000868A08 /* SystemConfiguration.framework */,
+				AFA44A3FF1D77FE88A49EBFB /* Pods_BodiTrak.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E809BE36F515A8F618DA16D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91C21D2C4BFCF7EE0FF75041 /* Pods-BodiTrak.debug.xcconfig */,
+				91C2B655F7D6A1EE13C080FC /* Pods-BodiTrak.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0486379E1D95112400821DFC /* BodiTrak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048637B91D95112400821DFC /* Build configuration list for PBXNativeTarget "BodiTrak" */;
+			buildPhases = (
+				B4322B2C37F53CEC2BAE8E38 /* [CP] Check Pods Manifest.lock */,
+				0486379B1D95112400821DFC /* Sources */,
+				0486379C1D95112400821DFC /* Frameworks */,
+				0486379D1D95112400821DFC /* Resources */,
+				0BEFA4675746824334F4E45D /* [CP] Embed Pods Frameworks */,
+				94B7E6F99FCB24E7FDF11EEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BodiTrak;
+			productName = BodiTrak;
+			productReference = 0486379F1D95112400821DFC /* BodiTrak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048637971D95112400821DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AnCheng;
+				TargetAttributes = {
+					0486379E1D95112400821DFC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P3NS8ZL82Q;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0486379A1D95112400821DFC /* Build configuration list for PBXProject "BodiTrak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048637961D95112400821DFC;
+			productRefGroup = 048637A01D95112400821DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0486379E1D95112400821DFC /* BodiTrak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0486379D1D95112400821DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CB85CC1D98B3E200868A08 /* Settings.bundle in Resources */,
+				048637B51D95112400821DFC /* LaunchScreen.storyboard in Resources */,
+				048637B21D95112400821DFC /* Assets.xcassets in Resources */,
+				048637AD1D95112400821DFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BEFA4675746824334F4E45D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BodiTrak/Pods-BodiTrak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94B7E6F99FCB24E7FDF11EEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BodiTrak/Pods-BodiTrak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4322B2C37F53CEC2BAE8E38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0486379B1D95112400821DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048637AA1D95112400821DFC /* ViewController.m in Sources */,
+				048637B01D95112400821DFC /* BodiTrak.xcdatamodeld in Sources */,
+				04022F941DB3F4540063D7A5 /* UIColor+HexString.m in Sources */,
+				04CB85CF1D9982DE00868A08 /* Cop.m in Sources */,
+				048637A71D95112400821DFC /* AppDelegate.m in Sources */,
+				04CB85D21D998D6C00868A08 /* CopMapView.m in Sources */,
+				048637A41D95112400821DFC /* main.m in Sources */,
+				04CB85D51D998D8300868A08 /* CopVelocityView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		048637AB1D95112400821DFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048637AC1D95112400821DFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048637B31D95112400821DFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048637B41D95112400821DFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048637B71D95112400821DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		048637B81D95112400821DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048637BA1D95112400821DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C21D2C4BFCF7EE0FF75041 /* Pods-BodiTrak.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BodiTrak/BodiTrak.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gary Shuchat (MZMSU474SY)";
+				DEVELOPMENT_TEAM = P3NS8ZL82Q;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BodiTrak/BodiTrak.pch;
+				INFOPLIST_FILE = BodiTrak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Blast.BodiTrak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "354c13c1-8560-4725-acd9-8e2c40b66176";
+				PROVISIONING_PROFILE_SPECIFIER = Boditrak_Development1;
+			};
+			name = Debug;
+		};
+		048637BB1D95112400821DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C2B655F7D6A1EE13C080FC /* Pods-BodiTrak.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BodiTrak/BodiTrak.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gary Shuchat (MZMSU474SY)";
+				DEVELOPMENT_TEAM = P3NS8ZL82Q;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BodiTrak/BodiTrak.pch;
+				INFOPLIST_FILE = BodiTrak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Blast.BodiTrak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "354c13c1-8560-4725-acd9-8e2c40b66176";
+				PROVISIONING_PROFILE_SPECIFIER = Boditrak_Development1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0486379A1D95112400821DFC /* Build configuration list for PBXProject "BodiTrak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048637B71D95112400821DFC /* Debug */,
+				048637B81D95112400821DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048637B91D95112400821DFC /* Build configuration list for PBXNativeTarget "BodiTrak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048637BA1D95112400821DFC /* Debug */,
+				048637BB1D95112400821DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		048637AE1D95112400821DFC /* BodiTrak.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				048637AF1D95112400821DFC /* BodiTrak.xcdatamodel */,
+			);
+			currentVersion = 048637AF1D95112400821DFC /* BodiTrak.xcdatamodel */;
+			path = BodiTrak.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 048637971D95112400821DFC /* Project object */;
+}
